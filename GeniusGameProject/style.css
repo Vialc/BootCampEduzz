@@ -1,6 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+
 body {
     margin: 0;
-    background-color: rgb(153, 245, 245)
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/058/317/large_2x/retro-futuristic-80s-background-free-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.game-title {
+    margin-top: 5vh;
+    margin-bottom: -50vh;
+    height: 60vh;
+    width: 50vh;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-game {
@@ -19,34 +32,65 @@ body {
     border: 1px solid #ffffff;
     background-color: #ffffff;
     border-radius: 100%;
-    width: 700px;
-    height: 700px;
+    width: 40vh;
+    height: 60vh;
+    transform: rotate3d(29, 5, 0, 50deg);
+    transform-style: preserve-3d;
+    transform-origin: center;
+    box-shadow: 5px 10px 15px rgb(78, 78, 78);
 }
 
 .blue {
     grid-area: azul;
     background-color: blue;
     border-bottom-right-radius: 100%;
+    border-right: 5px solid rgb(56, 53, 53);
+    border-bottom: 25px solid rgb(56, 53, 53);
 }
 
 .red {
     grid-area: vermelho;
     background-color: red;
     border-top-right-radius: 100%;
+    border-bottom: 5px solid rgb(56, 53, 53);
+    border-left: 3px solid rgb(56, 53, 53);
 }
 
 .green{
     grid-area: verde;
     background-color: green;
     border-top-left-radius: 100%;
+    border-bottom: 5px solid rgb(56, 53, 53);
+    border-right: 3px solid rgb(56, 53, 53);
 }
 
 .yellow {
     grid-area: amarelo;
     background-color: yellow;
     border-bottom-left-radius: 100%;
+    border-left: 5px solid rgb(56, 53, 53);
+    border-bottom: 25px solid rgb(56, 53, 53);
 }
 
 .selected {
     opacity: 0.4;
+}
+
+.level {
+    color:black;
+    background-color: #3a9c3e8c;
+    margin: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.level_score {
+    background-color: rgb(60, 149, 247);
+    color: black;
+    padding: 2px 6px;
+    margin-top: 0px;
+    border-radius: 50%;
+    
 }

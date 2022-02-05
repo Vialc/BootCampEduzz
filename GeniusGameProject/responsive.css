@@ -1,0 +1,27 @@
+@media (max-width: 500px) {
+    
+    .container{
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .genius {
+        width: 60vw;
+        height: 50vh;
+    }
+
+    .game-title {
+        margin-top: 5vh;
+        margin-bottom: -50vh;
+        height: 60vh;
+        width: 50vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .level {
+        margin: 0px;
+    }
+}

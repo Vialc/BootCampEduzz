@@ -43,8 +43,10 @@ let checkOrder = () => {
         }
     }
     if(clickedOrder.length == order.length) {
-        alert(`Pontuação: ${score}\n Você acertou! Iniciando próximo nível!`);
+       alert(`Pontuação: ${score + 1}\n Você acertou! Iniciando próximo nível!`);
+        
         setTimeout(nextLevel(), 1000);
+       
     }
 }
 
@@ -75,10 +77,20 @@ let createColorElement = (color) => {
     }
 }
 
+let displayNextLevel = () => {
+    let divNextLevel = `<p>Você acertou!</p>`
+    +`<button onclick=nextLevel()>Próximo nível</button>`;
+
+    document.querySelector('#nextLevel').style.display = 'flex';
+    document.querySelector('#nextLevel').innerHTML = divNextLevel;
+    document.querySelector('.template').style.filter = 'blur(2px)';
+
+}
+
 //função de próximo nível
 let nextLevel = () => {
     score++;
-
+    document.querySelector('.level_score').innerHTML = score;
     setTimeout(shuffleOrder(), 1000);
 }
 
@@ -86,20 +98,24 @@ let nextLevel = () => {
 
 let lose = () => {
     alert(`Pontuação: ${score}!\nVocê perdeu o jogo"\nClique em OK para iniciar um novo jogo`);
+    score =0;
+    document.querySelector('.level_score').innerHTML = score;
     order =[];
     clickedOrder = [];
-
     playGame();
 }
 
 //função que inicia o jogo
 let playGame = () => {
+    document.querySelector('.level_score').innerHTML = score;
+
     score = 0;
     shuffleOrder();
 }
 
 let startGame = () => {
     alert('Bem Vindo ao Gênesis! Iniciando novo Jogo...')
+    document.querySelector('.level_score').innerHTML = score;
     score = 0;
     
     shuffleOrder();

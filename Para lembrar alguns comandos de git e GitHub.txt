@@ -1,0 +1,13 @@
+--Subindo num repositório pela primeira vez--
+git remote add origin link.git
+
+--Alterando de master pra main (ou vice versa)--
+git branch -m master main
+
+--Resolvendo Conflitos no GitHub--
+git pull origin main
+	-- caso tenha Históricos diferentes entre origin e local
+	git pull origin main --allow-unrelated-histories
+
+--Para sair do editor
+ESC :wq ENTER
