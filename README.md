@@ -33,3 +33,11 @@
 <li>Fundamentos de Arquitetura de Sistemas --> ❌</li>
 <li>Introdução a orquestração de contêineres com Docker --> ❌</li>
 <li>Introdução prática a computação em nuvem usando AWS --> ❌</li>
+
+##
+
+## 👨🏾‍🏫👩🏾‍🏫Mentorias Agendadas:
+
+<li>07/02 - 16h: Aula inaugural - Eduzz Fullstack Developer #3</li>
+<li>23/02 - 16h: Projeto Eduzz #3: Retire todas as dúvidas encontradas no desenvolvimento do projeto</li>
+<li>07/03 - 14h: Como se preparar para o processo seletivo da Eduzz</li>
