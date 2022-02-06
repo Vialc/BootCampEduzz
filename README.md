@@ -14,7 +14,7 @@
 <li>Resolvendo Desafios de Código em Javascript --> ✔</li>
 <li>Desafios Básicos - Eduzz FullStack Developer --> ✔</li>
 <li>Criando seu jogo de memória estilo Genius --> ✔</li>
-<li>Introdução ao ReactJS --> ❌</li>
+<li>Introdução ao ReactJS --> ✔</li>
 <li>Trabalhando com Componentes em React --> ❌</li>
 <li>Desenvolvimento de aplicações para internet com ReactJS --> ❌</li>
 <li>Práticas Avançadas em projetos com ReactJS --> ❌</li>
