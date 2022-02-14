@@ -1,0 +1,21 @@
+
+############Dumb Components##################
+
+-Preocupa-se com a apresentação.
+- Recebem valores via props.
+- Não possuem dependências com o restante da aplicação
+- Recebem valores e callbacks exclusivamente via props
+- Raramente possuem estado, quando precisam de estado é para controlar a interface e não os dados do usuário.
+-são escritos na maioria das vezes como componentes funcionais.
+
+exemplos: Button, Card, Sidebar, Footer, List, Menu
+
+
+############Smart Components##################
+
+-Preocupam-se como as coisas vão funcionar
+-podem conter smart e dumb components
+-providenciam dados e padrões de apresentação ou outros containers
+-na maioria dos casos possuem estado e podem chamar outros fluxos do sistema
+
+exemplos: UserGallery, UserPage, FilterBook, FollowersSidebar, ListCards
