@@ -1,14 +1,34 @@
-import React, { Component } from 'react'
+import React, { Fragment } from 'react'
 
-class Twitter extends Component {
+const materias = [{
+  type: 'Quimica'
+}, {
+  type: 'Matemática'
+}, {
+  type: 'Linguagens'
+}]
 
-  render() {
-    return [
-      <div>
-        teste
-      </div>
-    ]
-  }
+function Column({ type }) {
+  return (
+    <tr>
+      <td>{type}</td>
+    </tr>
+  )
 }
 
-export default Twitter
+function App() {
+
+  const renderColumns = (element, key) => (
+    <Fragment key={`column-${key}`}>
+      <Column type={element.type} />
+    </Fragment>
+  )
+
+  return (
+    <table>
+      {materias.map(renderColumns)}
+    </table>
+  )
+}
+
+export default App
