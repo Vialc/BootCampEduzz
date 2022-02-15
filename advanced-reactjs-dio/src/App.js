@@ -1,34 +1,25 @@
-import React, { Fragment } from 'react'
+import React, { Component } from 'react'
+import Counter from './Counter'
+import Buttom from './buttom/Buttom'
 
-const materias = [{
-  type: 'Quimica'
-}, {
-  type: 'Matemática'
-}, {
-  type: 'Linguagens'
-}]
+class App extends Component {
 
-function Column({ type }) {
-  return (
-    <tr>
-      <td>{type}</td>
-    </tr>
-  )
-}
-
-function App() {
-
-  const renderColumns = (element, key) => (
-    <Fragment key={`column-${key}`}>
-      <Column type={element.type} />
-    </Fragment>
-  )
-
-  return (
-    <table>
-      {materias.map(renderColumns)}
-    </table>
-  )
+  render () {
+    return (
+      <div>
+        <Counter render={
+          ({ increment, decrement, count }) => (
+            <Buttom 
+            increment={increment}
+            decrement={decrement}
+            count={count}
+            />
+          )
+        }>
+        </Counter>
+      </div>
+    )
+  }
 }
 
 export default App
