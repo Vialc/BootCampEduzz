@@ -16,8 +16,8 @@
 <li>Criando seu jogo de memória estilo Genius --> ✔</li>
 <li>Introdução ao ReactJS --> ✔</li>
 <li>Trabalhando com Componentes em React --> ✔</li>
-<li>Desenvolvimento de aplicações para internet com ReactJS --> ❌</li>
-<li>Práticas Avançadas em projetos com ReactJS --> ❌</li>
+<li>Desenvolvimento de aplicações para internet com ReactJS --> ✔</li>
+<li>Práticas Avançadas em projetos com ReactJS --> ✔</li>
 <li>Introdução aos React Hooks --> ❌</li>
 <li>Criando aplicações móveis multiplataforma com React Native --> ❌</li>
 <li>Desafios JavaScript - Eduzz FullStack Developer --> ❌</li>
