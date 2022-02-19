@@ -18,8 +18,8 @@
 <li>Trabalhando com Componentes em React --> ✔</li>
 <li>Desenvolvimento de aplicações para internet com ReactJS --> ✔</li>
 <li>Práticas Avançadas em projetos com ReactJS --> ✔</li>
-<li>Introdução aos React Hooks --> ❌</li>
-<li>Criando aplicações móveis multiplataforma com React Native --> ❌</li>
+<li>Introdução aos React Hooks --> ✔</li>
+<li>Criando aplicações móveis multiplataforma com React Native --> ✔</li>
 <li>Desafios JavaScript - Eduzz FullStack Developer --> ❌</li>
 <li>Criando um front-end totalmente componentizado na prática com ReactJS --> ❌</li>
 <li>MySql - Trabalhando com suas primeiras tabelas --> ❌</li>
