@@ -20,8 +20,8 @@
 <li>Práticas Avançadas em projetos com ReactJS --> ✔</li>
 <li>Introdução aos React Hooks --> ✔</li>
 <li>Criando aplicações móveis multiplataforma com React Native --> ✔</li>
-<li>Desafios JavaScript - Eduzz FullStack Developer --> ❌</li>
-<li>Criando um front-end totalmente componentizado na prática com ReactJS --> ❌</li>
+<li>Desafios JavaScript - Eduzz FullStack Developer --> ✔</li>
+<li>Criando um front-end totalmente componentizado na prática com ReactJS --> ✔</li>
 <li>MySql - Trabalhando com suas primeiras tabelas --> ❌</li>
 <li>Introdução ao MongoDB e Bancos de Dados NoSQL --> ❌</li>
 <li>Introdução ao Node.js com JavaScript --> ❌</li>
@@ -38,6 +38,6 @@
 
 ## 👨🏾‍🏫👩🏾‍🏫Mentorias Agendadas:
 
-<li>07/02 - 16h: Aula inaugural - Eduzz Fullstack Developer #3</li>
-<li>23/02 - 16h: Projeto Eduzz #3: Retire todas as dúvidas encontradas no desenvolvimento do projeto</li>
-<li>07/03 - 14h: Como se preparar para o processo seletivo da Eduzz</li>
+<li>07/02 - 16h: Aula inaugural - Eduzz Fullstack Developer #3 ✔</li>
+<li>23/02 - 16h: Projeto Eduzz #3: Retire todas as dúvidas encontradas no desenvolvimento do projeto ✔</li>
+<li>07/03 - 14h: Como se preparar para o processo seletivo da Eduzz </li>
