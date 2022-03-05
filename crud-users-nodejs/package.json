@@ -1,0 +1,18 @@
+{
+  "name": "crud-users-nodejs",
+  "version": "1.0.0",
+  "description": "Microsserviço criado para estudo de NodeJS",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./",
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "Vitor Alcântara",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "typescript": "^4.6.2"
+  }
+}

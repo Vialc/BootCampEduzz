@@ -22,9 +22,9 @@
 <li>Criando aplicações móveis multiplataforma com React Native --> ✔</li>
 <li>Desafios JavaScript - Eduzz FullStack Developer --> ✔</li>
 <li>Criando um front-end totalmente componentizado na prática com ReactJS --> ✔</li>
-<li>MySql - Trabalhando com suas primeiras tabelas --> ❌</li>
-<li>Introdução ao MongoDB e Bancos de Dados NoSQL --> ❌</li>
-<li>Introdução ao Node.js com JavaScript --> ❌</li>
+<li>MySql - Trabalhando com suas primeiras tabelas --> ✔</li>
+<li>Introdução ao MongoDB e Bancos de Dados NoSQL --> ✔</li>
+<li>Introdução ao Node.js com JavaScript --> ✔</li>
 <li>Explorando o estilo Arquitetural REST com Node.js --> ❌</li>
 <li>Node.js com Bancos de Dados Relacionais (SQL) --> ❌</li>
 <li>Microsserviços e Integrações com Node.js --> ❌</li>
