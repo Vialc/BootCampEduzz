@@ -18,7 +18,7 @@
 Esse projeto faz parte de um dos desafios de projetos do Bootcamp Fullstack Developer 3 da Eduzz realizado através da plataforma Digital Innovation One Inc.
 Nesse desafio de projeto, o Matheus Benites, do canal Papo de Dev, cria uma API que apresenta um usuário do GitHub e seus repositórios. Eu me baseei na ideia do projeto dele pra fazer uma API consumindo dados do Twitter.
 
-Meu projeto foi feito utilizando ReactJS, NodeJS, JavaScript, HTML e CSS.
+Meu projeto foi feito utilizando ReactJS, NodeJS, JavaScript, HTML e CSS. 
 
 
 # Funcionalidades
