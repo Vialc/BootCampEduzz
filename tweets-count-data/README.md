@@ -1,43 +1,39 @@
+
 # BootCampEduzz
 
-## 💻Trilha de Atividades:
+<div align="center">
+<img src="https://user-images.githubusercontent.com/96386839/156664207-80622347-9ac4-4840-981f-ee284b895751.jpg" width="200" height="100" align="center">
+<h1>TweetsSearch</h1>
+</div>
+<div></div>
 
-<li>Boas-vindas ao Bootcamp Eduzz Fullstack Developer -3 --> ✔</li>
-<li>Lógica de Programação Essencial --> ✔</li>
-<li>Projetos ágeis com SCRUM --> ✔</li>
-<li>Introdução ao Git e ao GitHub --> ✔</li>
-<li>Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso --> ✔</li>
-<li>Introdução a criação de websites com HTML5 e CSS3 --> ✔</li>
-<li>JavaScript ES6 essencial --> ✔</li>
-<li>Desenvolvimento avançado com JavaScript ES6 --> ✔</li>
-<li>Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces --> ✔</li>
-<li>Resolvendo Desafios de Código em Javascript --> ✔</li>
-<li>Desafios Básicos - Eduzz FullStack Developer --> ✔</li>
-<li>Criando seu jogo de memória estilo Genius --> ✔</li>
-<li>Introdução ao ReactJS --> ✔</li>
-<li>Trabalhando com Componentes em React --> ✔</li>
-<li>Desenvolvimento de aplicações para internet com ReactJS --> ✔</li>
-<li>Práticas Avançadas em projetos com ReactJS --> ✔</li>
-<li>Introdução aos React Hooks --> ✔</li>
-<li>Criando aplicações móveis multiplataforma com React Native --> ✔</li>
-<li>Desafios JavaScript - Eduzz FullStack Developer --> ✔</li>
-<li>Criando um front-end totalmente componentizado na prática com ReactJS --> ✔</li>
-<li>MySql - Trabalhando com suas primeiras tabelas --> ❌</li>
-<li>Introdução ao MongoDB e Bancos de Dados NoSQL --> ❌</li>
-<li>Introdução ao Node.js com JavaScript --> ❌</li>
-<li>Explorando o estilo Arquitetural REST com Node.js --> ❌</li>
-<li>Node.js com Bancos de Dados Relacionais (SQL) --> ❌</li>
-<li>Microsserviços e Integrações com Node.js --> ❌</li>
-<li>Desafios Intermediários JavaScript - Eduzz FullStaack Developer --> ❌</li>
-<li>Construindo Encurtador de URL --> ❌</li>
-<li>Fundamentos de Arquitetura de Sistemas --> ❌</li>
-<li>Introdução a orquestração de contêineres com Docker --> ❌</li>
-<li>Introdução prática a computação em nuvem usando AWS --> ❌</li>
+ ## Tópicos
+ 
+ - [`Descrição do projeto`](#descrição-do-projeto).
+ - [`Funcionalidades`](#funcionalidades).
+ - [`Telas`](#imagens-da-api)
 
-##
+# Descrição do Projeto
 
-## 👨🏾‍🏫👩🏾‍🏫Mentorias Agendadas:
+Esse projeto faz parte de um dos desafios de projetos do Bootcamp Fullstack Developer 3 da Eduzz realizado através da plataforma Digital Innovation One Inc.
+Nesse desafio de projeto, o Matheus Benites, do canal Papo de Dev, cria uma API que apresenta um usuário do GitHub e seus repositórios. Eu me baseei na ideia do projeto dele pra fazer uma API consumindo dados do Twitter.
 
-<li>07/02 - 16h: Aula inaugural - Eduzz Fullstack Developer #3 ✔</li>
-<li>23/02 - 16h: Projeto Eduzz #3: Retire todas as dúvidas encontradas no desenvolvimento do projeto ✔</li>
-<li>07/03 - 14h: Como se preparar para o processo seletivo da Eduzz</li>
+Meu projeto foi feito utilizando ReactJS, NodeJS, JavaScript, HTML e CSS.
+
+
+# Funcionalidades
+
+- Realiza uma busca de usuários do Twitter através do @username
+- Lista os Tweets e Retweets de maneira separada (A parte de Retweets será implementada em futuras versões)
+- Informa uma contagem de Tweets encontrados
+- Permite filtragem de tweets por palavras
+
+# Imagens da API
+
+![tela inicial da api](https://user-images.githubusercontent.com/96386839/156669155-bbff3b68-f4db-437f-a34f-0d34ded250b4.png)
+
+![tela de exibição do usuário pesquisado](https://user-images.githubusercontent.com/96386839/156669189-e98e6117-c890-4723-b058-64dc8ac31d02.png)
+
+![tela de exibição de todos os tweets do usuário pesquisado](https://user-images.githubusercontent.com/96386839/156669248-dc0d4e71-f2a1-4fbb-acf7-80975ec62be4.png)
+
+![tela de exibição do filtro de busca aplicado](https://user-images.githubusercontent.com/96386839/156669307-f77570a4-220e-48fd-a2e6-ecb6aac3140f.png)
