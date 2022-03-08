@@ -24,7 +24,7 @@ router.get('/search', async (req, res, next) => {
     const users = await needle("get", endpointURL, params, {
         headers: {
             "User-Agent": "v2UserLookupJS",
-            "authorization": `Bearer AAAAAAAAAAAAAAAAAAAAAC3QZQEAAAAA88ctxA3JsB8rxOoW3L5G82%2BuQxg%3Dx0MflJo1ECEPx7LlpwXU1b5shhwtddpsgz4gHMqtoGptj2nG15`
+            "authorization": `Bearer xxxxxxxxxxxxxxxxxxxxxx`
         }
     })
     
@@ -41,7 +41,6 @@ router.get('/search', async (req, res, next) => {
     // The code below sets the bearer token from your environment variables
     // To set environment variables on macOS or Linux, run the export command below from the terminal:
     // export BEARER_TOKEN='YOUR-TOKEN'
-    const bearerToken = process.env.BEARER_TOKEN;
     
     const getUserTweets = async () => {
         let userTweets = [];
@@ -57,7 +56,7 @@ router.get('/search', async (req, res, next) => {
         const options = {
             headers: {
                 "User-Agent": "v2UserTweetsJS",
-                "authorization": `Bearer AAAAAAAAAAAAAAAAAAAAAC3QZQEAAAAA88ctxA3JsB8rxOoW3L5G82%2BuQxg%3Dx0MflJo1ECEPx7LlpwXU1b5shhwtddpsgz4gHMqtoGptj2nG15`
+                "authorization": `Bearer XXXXXXXXXXXXXXXXXXX`
             }
         }
     
