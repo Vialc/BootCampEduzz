@@ -27,8 +27,8 @@
 <li>Introdução ao Node.js com JavaScript --> ✔</li>
 <li>Explorando o estilo Arquitetural REST com Node.js --> ✔</li>
 <li>Node.js com Bancos de Dados Relacionais (SQL) --> ✔</li>
-<li>Microsserviços e Integrações com Node.js --> ❌</li>
-<li>Desafios Intermediários JavaScript - Eduzz FullStaack Developer --> ❌</li>
+<li>Microsserviços e Integrações com Node.js --> ✔</li>
+<li>Desafios Intermediários JavaScript - Eduzz FullStaack Developer --> ✔</li>
 <li>Construindo Encurtador de URL --> ❌</li>
 <li>Fundamentos de Arquitetura de Sistemas --> ❌</li>
 <li>Introdução a orquestração de contêineres com Docker --> ❌</li>
