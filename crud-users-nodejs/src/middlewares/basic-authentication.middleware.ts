@@ -4,13 +4,13 @@ import userRepository from "../repositories/user.repository";
 
 async function basicAuthenticationMiddleware(req: Request, res: Response, next: NextFunction) {
     try {
-        const autorizationHeader = req.headers['authorization']
+        const authorizationHeader = req.headers['authorization']
 
-        if (!autorizationHeader) {
+        if (!authorizationHeader) {
             throw new ForbiddenError('Credenciais não informadas')
         }
 
-        const [authenticationType, token] = autorizationHeader.split(' ')
+        const [authenticationType, token] = authorizationHeader.split(' ')
 
         if (authenticationType !== 'Basic' || !token) {
             throw new ForbiddenError('Tipo de autenticação inválido')
@@ -31,7 +31,6 @@ async function basicAuthenticationMiddleware(req: Request, res: Response, next: 
         }
 
         req.user = user
-        console.log('basic authentication: ' + user)
         next()
     } catch (error) {
         next(error)
