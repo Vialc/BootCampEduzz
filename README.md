@@ -29,7 +29,7 @@
 <li>Node.js com Bancos de Dados Relacionais (SQL) --> ✔</li>
 <li>Microsserviços e Integrações com Node.js --> ✔</li>
 <li>Desafios Intermediários JavaScript - Eduzz FullStaack Developer --> ✔</li>
-<li>Construindo Encurtador de URL --> ❌</li>
+<li>Construindo Encurtador de URL --> ✔</li>
 <li>Fundamentos de Arquitetura de Sistemas --> ❌</li>
 <li>Introdução a orquestração de contêineres com Docker --> ❌</li>
 <li>Introdução prática a computação em nuvem usando AWS --> ❌</li>
@@ -40,4 +40,4 @@
 
 <li>07/02 - 16h: Aula inaugural - Eduzz Fullstack Developer #3 ✔</li>
 <li>23/02 - 16h: Projeto Eduzz #3: Retire todas as dúvidas encontradas no desenvolvimento do projeto ✔</li>
-<li>07/03 - 14h: Como se preparar para o processo seletivo da Eduzz</li>
+<li>07/03 - 14h: Como se preparar para o processo seletivo da Eduzz ✔</li>
