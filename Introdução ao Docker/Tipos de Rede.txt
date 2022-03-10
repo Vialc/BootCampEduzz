@@ -1,0 +1,19 @@
+
+		TIPOS DE REDE
+
+Bridge: é a rede default do Docker, utilizado para comunicação entre containers
+	--> Cada container recebe um ip diferente
+
+Host: Remove o Isolamento de rede, o container responde diretamente pela placa de rede do host
+	--> Containers recebem o mesmo IP da Rede, sendo necessário observar
+	    as portas atribuidas a cada elemento
+
+Overlay: Permite a comunicação entre containers de hosts diferentes
+	--> A comunicação entre os containers em diferentes hosts é permitida através
+	    de um VSLAN(overlay) encapsulado.
+
+Macvlan: Permite atribuir um endereço MAC ao container tornando ele visível como um dispositivo
+	  físico na rede
+
+None: sem rede
+

@@ -1,0 +1,10 @@
+		LIMITES
+
+Importante definir um limite de recursos (processamento, armazenamento, etc..)
+
+	--memory  --> Seta a memória que será utilizada por cada container 
+	--cpus    --> limita a quantidade de CPUs utilizados
+
+
+
+		docker-compose up -d

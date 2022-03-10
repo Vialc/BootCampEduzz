@@ -1,0 +1,30 @@
+
+		TIPOS DE ARMAZENAMENTO
+
+Volume: Um disco virtual onde o docker engine tem total autonomia sobre ele, sendo assim o host não precisa ter uma estrutura de arquivos, 
+porém isso torna a leitura do disco mais pesada - pode ser criado durante a criação do container.
+ 	-Indicado para usar em Containers já replicados
+	-Caso o container é perdido ou reiniciado, as informações não são perdidas.
+
+	...Para criar um Volume:
+		docker volume create 'meuVolume'
+
+	...Para obter os dados do Volume:
+		docker volume inspect 'meuVolume'
+
+	...Para criar um container usando o volume criado:
+		docker run -d -p 80:80 --name container-volume --mount source='meuVolume',target=/usr/share/nginx nginx
+
+
+
+Bind Mounts: Funciona como se você tivesse uma pasta compartilhada entre o host e o container.
+	-Caso o container é perdido ou reiniciado, as informações não são perdidas.
+	-Caso não for criado um diretório antes de mapear o Bind, a pasta será criada automaticamente
+
+	...Para criar um Container com volume do tipo Bind:
+		docker run -d --name container-bind -p 80:80 -v /html:/usr/share/nginx/html nginx
+
+tmpfs (Temp File Systens) Mounts: Pode armazenar logs, arquivos em cache. Ao reiniciar um container os arquivos são deletados
+
+	...Para criar um Container com volume do tipo Bind:
+		docker run -d --name container-tmpfs --mount type=tmpfs,destination=/cache,tmpfs-size=1000000 busybox sleep3600

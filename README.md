@@ -30,9 +30,9 @@
 <li>Microsserviços e Integrações com Node.js --> ✔</li>
 <li>Desafios Intermediários JavaScript - Eduzz FullStaack Developer --> ✔</li>
 <li>Construindo Encurtador de URL --> ✔</li>
-<li>Fundamentos de Arquitetura de Sistemas --> ❌</li>
-<li>Introdução a orquestração de contêineres com Docker --> ❌</li>
-<li>Introdução prática a computação em nuvem usando AWS --> ❌</li>
+<li>Fundamentos de Arquitetura de Sistemas --> ✔</li>
+<li>Introdução a orquestração de contêineres com Docker --> ✔</li>
+<li>Introdução prática a computação em nuvem usando AWS --> ✔</li>
 
 ##
 

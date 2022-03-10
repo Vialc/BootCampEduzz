@@ -1,0 +1,22 @@
+Container Image --> pacote com todas as dependências que criam a nossa aplicação
+
+Dockerfile --> Arquivo de texto que contém todas as instruções para fazer o build da imagem
+
+Build --> Ação que cria uma imagem a partir do Dockerfile
+
+Container --> Uma instância da imagem que representa a execução de uma aplicação ou serviço.
+
+Volumes --> Permite que o container armazene arquivos, dados em disco. 
+		Mesmo que o container morra, as informações salvas no volume não são perdidas
+
+Tag --> Ajuda no versionamento das imagens
+
+Multi-Stage Build --> Permite realizar um build em múltiplos estágios
+
+Repository --> Coleção de imagens
+
+Registry --> Serviço que provê acesso ao nosso Docker
+
+Docker Hub --> Repositório Público
+
+Compose --> Ferramenta que usa metadata que cria múltiplos containers com um comando
