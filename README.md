@@ -34,9 +34,19 @@
 <li>Introdução a orquestração de contêineres com Docker --> ✔</li>
 <li>Introdução prática a computação em nuvem usando AWS --> ✔</li>
 
-##
+## Mentorias do Projeto Eduzz para o Bootcamp:
 
-## 👨🏾‍🏫👩🏾‍🏫Mentorias Agendadas:
+<li>Mentoria 01: Aula Inaugural ✔</li>
+<li>Mentoria 02: Carreira Eduzz: Cultura e Governança ✔</li>
+<li>Mentoria 03: Prototipando a aplicação ✔</li>
+<li>Mentoria 04: Componentizando a aplicação e criando interfaces responsivas ✔</li>
+<li>Mentoria 05: Criando a base de dados para suportar a aplicação ✔</li>
+<li>Mentoria 06: Desenvolvendo o back-end da aplicação e plugando o front-end ✔</li>
+<li>Mentoria 07: Entendendo e Utilizando Serviços de Mensageria ✔</li>
+<li>Mentoria 08: Vislumbrando possibilidades de integração da aplicação com a nuvem ✔</li>
+<li>Mentoria 09: Retire todas as dúvidas encontradas no desenvolvimento do projeto </li>
+
+## 👨🏾‍🏫👩🏾‍🏫Lives Agendadas:
 
 <li>07/02 - 16h: Aula inaugural - Eduzz Fullstack Developer #3 ✔</li>
 <li>23/02 - 16h: Projeto Eduzz #3: Retire todas as dúvidas encontradas no desenvolvimento do projeto ✔</li>
